@@ -8,10 +8,10 @@ import hashcode
 import tensorflow
 app = Flask(__name__)
 
-ckey = "Z454TbtTEdibJEALRORKiNjMk"
-csecret = "KcQCYlBTmFFqcucz831PjPbDI17kqnLaKKGZbh2CZhvICMVhRj"
-atoken = "1074245063704637441-HjhNpD2A34ZkPLp83ZktbVZocYotAT"
-asecret = "p9h7cReViRR3ZxWckVAiu1NmJvXEx3xjAA1DjJovWhF8I"
+ckey = "xxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+csecret = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+atoken = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+asecret = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 
 auth = OAuthHandler(ckey, csecret)
 auth.set_access_token(atoken, asecret)
